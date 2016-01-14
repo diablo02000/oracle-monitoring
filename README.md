@@ -1,9 +1,9 @@
-# oracle-stats
-Monitor Oracle Databases
+# oracle-monitoring
+Get metrics from oracle database. The metrics can be send to different target such as terminal, graphite or statsd.
 
 # Description
 
-Oracle stats is a simple tools to get useful metric of your Oracle Database.
+Oracle monotoring is a simple tools to get useful metric of your Oracle Database.
 Write in ruby, it can return the different metric on the current console or send to graphite.
 
 # Man
@@ -16,8 +16,6 @@ Help for commands:
                   Oracle connection credential
   -go         (Optional, takes 1 argument)
                   Send data to graphite. Set patch to graphite ex: statds.server.sid.
-  -so         (Optional, takes 0 arguments)
-                  Send data to statsd. Before use this option you need to configure the Statds connection variable.
   -to         (Optional, takes 0 arguments)
                   Console output. This is the default output.
   -connect    (Optional, takes 0 arguments)
